@@ -19,14 +19,33 @@ $(function() {
       after: function() {
         $("#ig-feed .video").parent().remove();       
         $("#ig-feed").slick({          
-          centerMode:false,
-          slidesToShow:5,          
-          arrows:false,
-          dots:false,
-          autoplay:true,
-          infinite:true,
-          autoplaySpeed:0,
-          speed:10000          
+          centerMode: true,
+            slidesToShow: 5,
+            arrows: false,
+            infinite: true,
+            autoplay: true,
+            cssEase: 'linear',
+            autoplaySpeed: 0,
+            speed: 10000,
+            responsive: [
+                {
+                    breakpoint: 980,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
+                {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 400,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }]          
         });
       }
     }).run(); 
