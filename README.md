@@ -1,4 +1,4 @@
-# TNT-Instagram-Feeds
+# TNT Instagram Feeds
 Instagram feed rotations.
 
 ## Initializer [Slick Slider]
