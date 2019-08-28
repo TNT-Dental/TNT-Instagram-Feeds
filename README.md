@@ -35,5 +35,5 @@ $(function() {
 });
 ```
 
-##Links
+## Links
 [Codepen Example 1](https://codepen.io/endeart/pen/YboWLv)
